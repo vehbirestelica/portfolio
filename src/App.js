@@ -9,7 +9,6 @@ function App() {
         <Route path="/" component={Home} exact />
       </Switch>
     </Router>
-    //test
   );
 }
 
