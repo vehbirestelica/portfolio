@@ -9,7 +9,7 @@ export const homeObjOne = {
     "I'm a student in the last year of studies in the University of Prishtina, Computer Engineering department. I've experience building web and mobile applications. Below you can check the projects I've done.",
   buttonLabel: "My Projects",
   imgStart: false,
-  img: "/images/idk2.svg",
+  // img: require("../aboutMe.png"),
   alt: "aboutMe",
   dark: true,
   primary: true,

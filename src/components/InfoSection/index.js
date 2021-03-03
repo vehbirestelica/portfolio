@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ButtonElement";
+import aboutMeImg from "./idk2.svg";
 import {
   Column2,
   Img,
@@ -60,7 +61,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} />
+                <Img src={aboutMeImg} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
