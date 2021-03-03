@@ -4,14 +4,11 @@ import Home from "./pages";
 
 function App() {
   return (
-    // <Router>
-    //   <Switch>
-    //     <Route path="/" component={Home} exact />
-    //   </Switch>
-    // </Router>
-    <div>
-      <h1>Hallo2222</h1>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" component={Home} exact />
+      </Switch>
+    </Router>
   );
 }
 
